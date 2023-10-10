@@ -1,0 +1,42 @@
+.navigation {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.navigationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigationList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigationListItem {
+  margin-right: 20px;
+}
+
+.navigationListItem:last-child {
+  margin-right: 0;
+}
+
+.navigationLink {
+  color: white;
+  text-decoration: none;
+}
+
+.navigationLinkDisabled {
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 1024px) {
+  .navigationMenu {
+    display: flex;
+  }
+}
