@@ -7,6 +7,8 @@ function App() {
     <>
       <Menu />
       <Header />
+      <For-specjalist />
+      <Specjalist />
     </>
   );
 }
