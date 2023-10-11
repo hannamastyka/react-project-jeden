@@ -20,6 +20,7 @@ function Srecjalist() {
           </p>
         </div>
       </div>
+      style={{ bacgroundImage: "url(/images/kot.png)" }}
       <div className="specialist specialist-two">
         <div className="specialist-photo-two"></div>
         <div className="specialist-description">
