@@ -1,0 +1,44 @@
+.specialist-photo {
+    width: 197px;
+    height: 197px;
+    background: gray;
+    border-radius: 50%;
+    flex-shrink: 0;
+  
+    background-position: 45% 37%;
+  }
+  .specialist {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+  }
+  .specialist:nth-of-type(even) {
+    margin-bottom: 40px;
+  }
+  
+  .specialist-name {
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .specialist-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 197px;
+  }
+  
+  .specialist-description-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .specialist-photo-two {
+    width: 197px;
+    height: 197px;
+  
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-position: -110%;
+  }

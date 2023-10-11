@@ -3,9 +3,9 @@ import styles from "./Menu.module.css";
 function Menu() {
   return (
     <nav className={styles.navigation}>
-      <div className={"container ${styles.navigationContainer}"}>
+      <div className={`container ${styles.navigationContainer}`}>
         <h2>moja firma</h2>
-        <ul className={styles.mavigationList}>
+        <ul className={styles.navigationList}>
           <li className={styles.navigationListItem}>
             <a className={styles.navigationLink} href="#about-us">
               O nas
@@ -18,9 +18,7 @@ function Menu() {
           </li>
 
           <li className={styles.navigationListItem}>
-            <a className={styles.navigationLinkDisabled} href="/#">
-              Kontakt
-            </a>
+            <div className={styles.navigationLinkDisabled}>Kontakt</div>
           </li>
         </ul>
       </div>

@@ -2,9 +2,12 @@ import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header className={styles.sectionHome}>
+    <header
+      className={styles.sectionHome}
+      style={{ backgroundImage: "url(/images/tlo.png)" }}
+    >
       <div className={styles.overlay}>
-        <div className={"container ${styles.sectionHome.Container}"}>
+        <div className={`container ${styles.sectionHomeContainer}`}>
           <div className={styles.homeContainer}>
             <h1 className={styles.sectionHomeHeader}>
               Nasza firma oferuje najwyższej jakości produkty.
