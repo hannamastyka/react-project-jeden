@@ -1,9 +1,9 @@
-import styles from "./Srecjalist.module.css";
+import styles from "./Specjalist.module.css";
 
-function Srecjalist() {
+function Specjalist() {
   return (
     <header className={styles.container} id="about-us">
-      style={{ bacgroundImage: "url(/images/weterynarz.png)" }}
+      {/* style={{ bacgroundImage: "url(/images/weterynarz.png)" }} */}
       <h2 className="section-home-specialists">Nasi specjalisci</h2>
       <div className="specialist">
         <div className="specialist-photo"></div>
@@ -20,7 +20,7 @@ function Srecjalist() {
           </p>
         </div>
       </div>
-      style={{ bacgroundImage: "url(/images/kot.png)" }}
+      {/* style={{ bacgroundImage: "url(/images/kot.png)" }} */}
       <div className="specialist specialist-two">
         <div className="specialist-photo-two"></div>
         <div className="specialist-description">

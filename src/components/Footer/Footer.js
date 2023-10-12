@@ -1,3 +1,8 @@
+import styles from "./Footer.module.css";
+
+function Footer() {
+  return (
+
 <footer class="footer">
       <div class="container">
         <p>Nazwa firmy - wszelkie prawa zastreżone,2019</p>
@@ -11,5 +16,5 @@
         </ul>
       </div>
     </footer>
-  </body>
-</html>
+  )}
+export default Footer;
