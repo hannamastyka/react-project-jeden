@@ -1,0 +1,15 @@
+.sectionHomeSpecialists {
+  padding: 40px 0;
+  color: #152d41;
+  font-size: 36px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.list div:nth-of-type(even) {
+  flex-direction: row-reverse;
+}

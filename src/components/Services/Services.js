@@ -1,6 +1,6 @@
-import styles from "./ForSpecjalist.module.css";
+import styles from "./Services.module.css";
 
-function ForSpecjalist() {
+function Services() {
   return (
     <section className="section-info-for-specjalist" id="offer">
       <div className="container">
@@ -21,4 +21,4 @@ function ForSpecjalist() {
     </section>
   );
 }
-export default ForSpecjalist;
+export default Services;

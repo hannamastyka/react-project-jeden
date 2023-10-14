@@ -1,16 +1,17 @@
 import "./App.css";
 import Menu from "./components/Menu/Menu";
 import Header from "./components/Header/Header";
-import ForSpecjalist from "./components/ForSpecjalist/ForSpecjalist";
-import Specjalist from "./components/Specjalist/Specjalist";
+import Services from "./components/Services/Services";
+import SpecialistsList from "./components/SpecialistsList/SpecialistsList";
 import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
       <Menu />
       <Header />
-      <ForSpecjalist />
-      <Specjalist />
+      <SpecialistsList />
+      <Services />
+
       <Footer />
     </>
   );

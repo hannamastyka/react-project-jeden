@@ -4,12 +4,11 @@
   background: gray;
   border-radius: 50%;
   flex-shrink: 0;
-
-  background-position: 45% 37%;
+  object-fit: cover;
 }
 .specialist {
   display: flex;
-  flex-direction: column;
+
   gap: 60px;
   align-items: center;
 }
@@ -27,18 +26,4 @@
   flex-direction: column;
   justify-content: center;
   height: 197px;
-}
-
-.specialistDescription-Two {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.specialistPhotoTwo {
-  width: 197px;
-  height: 197px;
-
-  border-radius: 50%;
-  flex-shrink: 0;
-  background-position: -110%;
 }
