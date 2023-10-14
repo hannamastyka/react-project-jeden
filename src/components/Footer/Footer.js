@@ -4,8 +4,9 @@ function Footer() {
   return (
 
 <footer class="footer">
-      <div class="container">
-        <p>Nazwa firmy - wszelkie prawa zastreżone,2019</p>
+      <div className={styles.sectionContainer}
+         <p className={styles.Footer} >
+          Nazwa firmy - wszelkie prawa zastreżone,2019</p>
         <ul>
           <li>
             <a href="offer"><i class="fa-brands fa-instagram"></i></a>
