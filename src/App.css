@@ -14,10 +14,10 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
+/*.container {
   width: 92%;
   margin: 0 auto;
-}
+}*/
 /*.section-home {
   height: calc(100vh - 69px);
   background: center/cover no-repeat;
@@ -147,7 +147,7 @@ html {
   line-height: normal;
 }*/
 
-.box {
+/*.box {
   width: 250px;
   height: 250px;
   margin: 10px;
@@ -168,11 +168,11 @@ html {
   position: relative;
 }
 
-.section-tile {
+/*.section-tile {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
+}*/
 
 /*.footer p {
   font-size: 18px;
@@ -229,7 +229,7 @@ html {
   margin-top: 40px;
 }
 
-.dot {
+/*.dot {
   width: 22px;
   height: 22px;
   background: #e07a64;
@@ -237,7 +237,7 @@ html {
   position: absolute;
   top: -11px;
   left: -11px;
-}
+}*/
 
 .container {
   width: 960px;
@@ -260,12 +260,12 @@ html {
   background: white;
 }*/
 
-.footer .container {
+/*.footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-}
+}*/
 .home-container {
   width: 62%;
 }

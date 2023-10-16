@@ -8,34 +8,22 @@
 .footer {
   background-color: #333;
   color: white;
-  padding: 30px;
+
   font-size: 18px;
+}
+
+.icons {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
 }
 
 .footerContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-}
-
-.footerUl {
-  list-style-type: none;
-  margin-top: 20px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.footerLi {
-  margin-right: 20px;
-}
-
-.footerLi:last-child {
-  margin-right: 0;
-}
-
-.footerA {
-  color: white;
-  text-decoration: none;
+  flex-direction: row;
+  padding: 15px 0;
 }

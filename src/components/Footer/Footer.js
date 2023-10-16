@@ -1,24 +1,24 @@
 import styles from "./Footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
-    <footer class="footer">
-      <div className={styles.sectionContainer}>
-        <p className={styles.footer}>
-          Nazwa firmy - wszelkie prawa zastreżone,2019
-        </p>
-        <ul>
-          <li>
-            <a href="offer">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="about-us">
-              <i class="fa-brands fa-square-facebook"></i>
-            </a>
-          </li>
-        </ul>
+    <footer className={styles.footer}>
+      <div className="container">
+        <div className={styles.footerContainer}>
+          <p className={styles.footerP}>
+            Nazwa firmy - wszelkie prawa zastreżone,2019
+          </p>
+          <ul className={styles.icons}>
+            <li>
+              <FontAwesomeIcon icon={faTwitter} />
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faFacebook} />
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   );

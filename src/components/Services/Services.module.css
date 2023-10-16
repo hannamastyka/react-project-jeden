@@ -1,12 +1,9 @@
 .sectionInfoForSpecjalist {
   font-weight: 700;
   background-color: #405d78;
+  padding-bottom: 60px;
 }
-.sectionHomeSpecialists {
-  padding: 40px 0;
-  color: #152d41;
-  font-size: 36px;
-}
+
 .specjialistSection {
   color: #fff;
   padding: 45px 0;
@@ -16,3 +13,42 @@
   line-height: normal;
 }
 
+.dot {
+  width: 22px;
+  height: 22px;
+  background: #e07a64;
+  border-radius: 50%;
+  position: absolute;
+  top: -11px;
+  left: -11px;
+}
+
+.sectionTile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-direction: column;
+  position: relative;
+}
+.box:hover {
+  transform: scale(1.05);
+}

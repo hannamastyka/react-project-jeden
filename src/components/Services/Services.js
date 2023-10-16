@@ -1,21 +1,21 @@
 import styles from "./Services.module.css";
+import { data } from "./data";
 
 function Services() {
   return (
-    <section className="section-info-for-specjalist" id="offer">
+    <section className={styles.sectionInfoForSpecjalist} id="offer">
       <div className="container">
-        <h2 className="specjialist-section">Czym zajmuje się nasza firma?</h2>
-        <div className="section-tile">
-          <div className="box">
-            <div className="dot"></div>
-            <p>Usługa 1</p>
-            <p>(nowość)</p>
-          </div>
-          <div className="box">Usługa 2</div>
-          <div className="box">Usługa 3</div>
-          <div className="box">Usługa 4</div>
-          <div className="box">Usługa 5</div>
-          <div className="box">Usługa 6</div>
+        <h2 className={styles.specjialistSection}>
+          Czym zajmuje się nasza firma?
+        </h2>
+        <div className={styles.sectionTile}>
+          {data.map((offer) => (
+            <div className={styles.box} key={offer.name}>
+              {offer.isNew ? <div className={styles.dot}></div> : null}
+              <p>{offer.name}</p>
+              {offer.isNew ? <p>(nowość)</p> : null}
+            </div>
+          ))}
         </div>
       </div>
     </section>
